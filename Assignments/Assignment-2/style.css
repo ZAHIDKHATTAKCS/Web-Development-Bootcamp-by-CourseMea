@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px blue;
+    width: 25%;
+    background-color: lightcyan;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+label{
+    font-style: capitalize;
+}
+input{
+    margin-top: 5px;
+    height: 30px !important;
+    width: 100%;
+}
+.BtnDiv{
+    display: flex;
+    justify-content: center;
+}
+.LoginBtn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid darkgreen;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.LoginBtn:hover{
+    background-color: transparent;
+    border: 1px solid darkgreen;
+    color: darkgreen;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    form{
+        width: 60% !important;
+    }
+    
+}
